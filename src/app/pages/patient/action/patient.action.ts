@@ -1,5 +1,5 @@
-import { ActionFactory, ActionTemplate } from "src/app/core/redux/action.factory";
-import { IPatient } from "src/app/core/interface/patient.interface";
+import { IPatient } from './../../../core/interface/patient.interface';
+import { ActionFactory, ActionTemplate } from './../../../core/redux/action.factory';
 
 export enum PatientActionTypes {
     PATIENT_FETCH = '[PATIENT] FETCH',

@@ -1,4 +1,4 @@
-import { initialPatient, IPatient } from 'src/app/core/interface/patient.interface';
+import { IPatient, initialPatient } from './../../../core/interface/patient.interface';
 import { All, PatientActionTypes } from '../action/patient.action';
 
 export function patientReducer(state: IPatient = initialPatient, action: All) {

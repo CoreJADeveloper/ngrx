@@ -1,9 +1,9 @@
+import { AppState } from './../../core/redux/app.reducer';
+import { initialPatient, IPatient } from './../../core/interface/patient.interface';
+import { TemplateType } from './../../core/enums/template-type';
 import { Observable } from 'rxjs';
-import { initialPatient, IPatient } from 'src/app/core/interface/patient.interface';
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppState } from 'src/app/core/redux/app.reducer';
-import { TemplateType } from 'src/app/core/enums/template-type';
 import { patientActionFactory, PatientActionTypes, PatientFetch } from './action/patient.action';
 
 @Component({
